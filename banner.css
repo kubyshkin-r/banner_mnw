@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 50px;
+}
+.mnw-wrapper{
+    margin: auto;
+}
+
+.mnw-wrapper{
+    width: 690px;
+    height: 358px;
+    background-color: #168AFF;
+}
+.mnw-container{
+    max-width: 561px;
+    margin: auto;
+    padding: 2px 15px 0;
+}
+.mnw__content{
+    padding-top: 10px;
+
+
+    font-family: Myriad Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.mnw__hr{
+    mar
+    color: #fff;
+    border: none;
+    border-top: 2px #fff solid;
+}
+.mnw__content span{
+    margin-right: 10px;
+}
+.mnw__title{
+    font-family: Myriad Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;   
+    text-transform: uppercase; 
+    padding-bottom: 4px;
+}
+.mnw__button{
+    padding: 10px 20px;
+    font-family: Myriad Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 900;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+    background-color: #fff;
+    color: #168AFF ;
+    border: none;
+    border-radius: 6px;
+}
+.mnw__button:active{
+   background-color: #D5EAFF;
+}
