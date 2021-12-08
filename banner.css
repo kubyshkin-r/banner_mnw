@@ -13,12 +13,26 @@ body{
 /* всё что выше - удаляем */
 
 .mnw-wrapper{
+    height: 363px;
     margin: auto;
     background-color: #168AFF;
+    border-radius: 8px;
     background-image: url(vein.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
+    position: relative;
 }
+.mnw-wrapper::after {
+    content: "";
+    background: url(http://calculate-this.com/sites/default/files/styles/large/public/field/image/cat-3-icon.png?itok=w4QTmWF4);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;   
+  }
 .mnw-container{
     max-width: 576px;
     margin: auto;
@@ -41,6 +55,7 @@ body{
     width: 76%;
     margin-top: 16px;
     margin-bottom: 11px;
+    margin-left: 0;
     color: #fff;
     border: none;
     border-top: 2px #fff solid;
@@ -58,6 +73,7 @@ body{
 .mnw__button{
     margin-top: 10px;
     padding: 10px 20px;
+    font-family: Myriad Pro;
     font-size: 12px;
     font-weight: 700;
     line-height: 14px;
@@ -72,6 +88,7 @@ body{
 
 @media (max-width: 565px){
     .mnw-wrapper{
+        height: auto;
         background-image: none;
     }
     .mnw__content{
