@@ -7,34 +7,40 @@ body{
     margin-top: 50px;
 }
 .mnw-wrapper{
-    margin: auto;
+    max-width: 690px;
 }
 
+/* всё что выше - удаляем */
+
 .mnw-wrapper{
-    width: 690px;
-    height: 358px;
+    margin: auto;
     background-color: #168AFF;
+    background-image: url(vein.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
 }
 .mnw-container{
-    max-width: 561px;
+    max-width: 576px;
     margin: auto;
-    padding: 2px 15px 0;
+    padding: 2px 15px 23px;
 }
 .mnw__content{
     padding-top: 10px;
-
-
     font-family: Myriad Pro;
     font-size: 16px;
-    font-style: normal;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
     color: #fff;
 }
+.mnw__img{
+    width: 100%;
+}
 .mnw__hr{
-    mar
+    width: 76%;
+    margin-top: 16px;
+    margin-bottom: 11px;
     color: #fff;
     border: none;
     border-top: 2px #fff solid;
@@ -43,25 +49,18 @@ body{
     margin-right: 10px;
 }
 .mnw__title{
-    font-family: Myriad Pro;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;   
-    text-transform: uppercase; 
     padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;  
+    text-transform: uppercase; 
 }
 .mnw__button{
+    margin-top: 10px;
     padding: 10px 20px;
-    font-family: Myriad Pro;
-font-size: 12px;
-font-style: normal;
-font-weight: 900;
-line-height: 14px;
-letter-spacing: 0em;
-text-align: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
     background-color: #fff;
     color: #168AFF ;
     border: none;
@@ -69,4 +68,25 @@ text-align: left;
 }
 .mnw__button:active{
    background-color: #D5EAFF;
+}
+
+@media (max-width: 565px){
+    .mnw-wrapper{
+        background-image: none;
+    }
+    .mnw__content{
+        padding-top: 22px;
+    }
+    .mnw__hr{
+        width: 100%;
+        margin: 19px 0 20px;
+    }
+    .mnw__button{
+        width: 100%;
+        margin-top: 25px;
+        padding: 13px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+    }
 }
