@@ -1,17 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    margin-top: 50px;
-}
-.mnw-wrapper{
-    max-width: 690px;
-}
-
-/* всё что выше - удаляем */
-
 .mnw-wrapper{
     position: relative;
     height: 363px;
@@ -28,6 +14,8 @@ body{
     right: 0;
     opacity: 1;
     border-radius: 8px;
+
+/* поправить ссылку на картинку вейна в зависимости от положения её в структуре битрикса! */
     background-image: url(vein.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
